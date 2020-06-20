@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Poppins',Arial,sans-serif;
+	background: linear-gradient(#FFF, #D4E5F8);
+}
+
+
+.container{
+	width: 280px;
+	border-radius: 5px;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+	background: #54B3EA;
+	padding: 0 15px;
+	color: #fff;
+}
+
+
+.dp{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+.dp .user{
+	display: flex;
+	align-items: center;
+}
+.dp .user img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+.data .site{
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+.dp i{
+	font-size: 20px;
+}
+.fa-twitter{
+	margin-right: 10px;
+}
+.fa-facebook{
+	opacity: 0.6;
+}
+
+
+.form{
+	background: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 2;px 10px rgba(0, 0, 0, 0.15);
+}
+textarea{
+	border: none;
+	outline: none;
+	width: calc(100% - 30px);
+	padding: 15px;
+	height: 50px;
+}
+.form p{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	background: #F5F5F5;
+	color: #54B3EA;
+	font-size: 14px;
+}
+.form p i{
+	margin-right: 10px;
+}
+
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+.fa-smile{
+	margin: 0 10px;
+}
+.nav span i{
+	opacity: 0.8;
+}
+.nav button{
+	border: none;
+	outline: none;
+	color: #fff;
+	padding: 7.5px 20px;
+	font-size: 12px;
+	background: #248CD0;
+	border-radius: 5px;
+}
